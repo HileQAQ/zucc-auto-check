@@ -1,4 +1,4 @@
-name: ZUCC Auto Check-2
+name: ZUCC Auto Check1
 
 on:
   workflow_dispatch:
@@ -25,6 +25,6 @@ jobs:
           PASSWORD: ${{ secrets.PASSWORD1 }}
           LOCATION: ${{ secrets.LOCATION1 }}
           AUTO_POSITION: ${{ secrets.AUTO_POSITION1 }}
-          VACCINE: ${{ secrets.VACCINE1 }}
+          VACCINE: ${{ secrets.VACCINE }}
           SCKEY: ${{ secrets.SCKEY }}
         run: python main.py
