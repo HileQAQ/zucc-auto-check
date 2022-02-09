@@ -3,7 +3,7 @@ name: ZUCC Auto Check1
 on:
   push:
   schedule:
-    - cron: '50  * * *'
+    - cron: '50 * * * *'
 
 jobs:
   bot:
