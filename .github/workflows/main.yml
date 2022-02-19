@@ -32,8 +32,8 @@ jobs:
         env:
           SCHOOL_ID: ${{ secrets.SCHOOL_ID1 }}
           PASSWORD: ${{ secrets.PASSWORD1 }}
-          LOCATION: ${{ secrets.LOCATION1 }}
-          AUTO_POSITION: ${{ secrets.AUTO_POSITION1 }}
+          LOCATION: ${{ secrets.LOCATION }}
+          AUTO_POSITION: ${{ secrets.AUTO_POSITION }}
           VACCINE: ${{ secrets.VACCINE }}
           SCKEY: ${{ secrets.SCKEY }}
         run: python main.py
